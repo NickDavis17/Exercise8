@@ -18,7 +18,8 @@ class Business extends Person {
 
     @Override
     public void display(){
+        System.out.println("Business Contact:");
         super.display();
-        System.out.println("Business Contact: Their phone number is " + phoneNumber);
+        System.out.println("Their phone number is " + phoneNumber);
     }
 }
